@@ -17,7 +17,7 @@ using std::cin;
 using std::vector;
 
 int main() {
-    vector<string>ivec = {"";@*@_#%@ is my name and -\n"
+    vector<string>ivec = {";@*@_#%@ is my name and -\n"
         "This is written in lowercase"};
     for (auto it = ivec.begin(); it != ivec.end() && !it -> empty(); it++) {
         for (auto iter = it -> begin(); iter != it -> end(); iter++) 
